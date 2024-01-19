@@ -1,0 +1,27 @@
+.Tabla table th td {
+    text-transform: uppercase;
+}
+.Tabla img{
+    box-sizing: none;
+    width: 120px;
+}
+.Tabla .btn-outline-danger{
+    background-color: #d14e4e;
+    color: black;
+}
+.Tabla .btn-outline-danger:hover{
+    background-color: #ff0000;
+}
+.Tabla button{
+    font-size: 1vw;
+}
+.Tabla .alert-danger{
+    text-align: center;
+    width: 50vw;
+    margin: 0 auto;
+    height: 10vw; 
+    padding-top: 3vw;
+    font: 2.4vw bold black;
+    margin-top: 100px;
+    border-radius: 20px;
+}

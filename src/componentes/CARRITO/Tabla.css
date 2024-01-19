@@ -1,0 +1,20 @@
+.Tabla table th {
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 16px;
+    width: 40px;
+    vertical-align: inherit !important; 
+}
+.Tabla .btn__borrar{
+    box-shadow: 5px 10px 15px -5px #900c0c;
+    background: linear-gradient(to bottom, #9b372e 5%, #a62519 100%);
+    border-radius: 7px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 3px 12px;
+    width: auto;
+}
+.Tabla img{
+    width: 100%;
+}

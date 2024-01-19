@@ -1,0 +1,78 @@
+.Card .card{
+    border-radius: 20px;
+}
+.Card section button {
+    box-shadow: 0px 10px 15px -5px #2a4f18;
+    background: linear-gradient(to bottom, #67964f 5%, #6ac73b 100%);
+    border-radius: 7px;
+    border: 1px solid #4b8f29;
+    cursor: pointer;
+    color: wheat;
+    font-size: 0.7vw;
+    padding: 6px 21px;
+    text-decoration: none;
+    text-shadow: 0px 2px 4px #345a1a;
+}
+.Card section {
+    border: 20px rgb(0, 0, 0);
+    width: 320px;
+    height: auto;
+    padding: 15px;
+    margin: 25px;
+    border-radius: 20px;
+}
+
+.Card section h3 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 7px;
+    text-decoration: underline;
+    width: auto;
+}
+.Card section p {
+    font-size: 18px;
+    font-family: Arial;
+    margin-bottom: 5px;
+    color: black
+}
+.Card section p:nth-last-of-type(5){
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.Card section img {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.Card section:hover{
+    animation: AnimCards 2s ease 0s 1 normal forwards;
+    border-radius: 20px;
+}
+@keyframes AnimCards {
+	0% {
+		transform: scale(1);
+        background-color: #0d2d15;
+	}
+    30% {
+		transform: scale(1.1);
+        background-color: #0f3c1a;
+	}
+
+	50% {
+		transform: scale(1.1);
+        background-color: #0e421c;
+	}
+
+	60% {
+		transform: scale(1);
+        background-color: #0d461c;
+	}
+    80% {
+		transform: scale(1);
+        background-color: #0b3716;
+	}
+    100% {
+		transform: scale(1);
+        background-color: #092809;
+	}
+}

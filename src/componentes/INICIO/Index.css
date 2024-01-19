@@ -1,0 +1,18 @@
+.inicio {
+    height: auto;
+    text-align: center;
+    background-color: rgb(10, 31, 21);
+    padding: 25px;
+    padding-bottom: 150px;
+}
+
+.inicio .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.inicio .section-cards-header h1 {
+    color: white;
+    margin-bottom: 40px;
+}

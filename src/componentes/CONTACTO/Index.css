@@ -1,0 +1,102 @@
+.Contacto {
+    height: auto;
+    text-align: center;
+    background-color: rgb(10, 31, 21);
+    padding: 25px;
+    padding-bottom: 20vw;
+    color: white;
+}
+
+.Contacto .conteiner-form {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.Contacto .conteiner-form h1 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 47px;
+    margin-bottom: 20px;
+}
+
+.Contacto .conteiner-form p {
+    margin-left: 17px;
+    font-size: 23px;
+    font-family: 'Inter', sans-serif;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+.Contacto .conteiner-form a div {
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    width: 100%;
+    margin-top: 7px;
+    /* margin-left: 10px; */
+    color: whitesmoke;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.Contacto .conteiner-form form input {
+    width: 33%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 7px 7px;
+}
+
+.Contacto .conteiner-form form,
+textarea {
+    width: 75%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    outline: 0px;
+}
+
+.Contacto #btn-enviar {
+    box-shadow: 0px 10px 15px -5px #2a4f18;
+    background: linear-gradient(to bottom, #67964f 5%, #6ac73b 100%);
+    border-radius: 7px;
+    border: 1px solid #4b8f29;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    width: auto;
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 7px 21px;
+    text-decoration: none;
+    text-shadow: 0px 2px 4px #345a1a;
+    margin-top: 15px;
+}
+
+.Contacto .conteiner-form form textarea {
+    max-width: 35%;
+    min-width: 75%;
+    max-height: 35%;
+    min-height: 75%;
+}
+
+.Contacto .tel::before {
+    content: "\1F4DE";
+    margin-right: 5px;
+}
+
+.Contacto .email::before {
+    content: "\1F4E9";
+    margin-right: 5px;
+}
+
+.Contacto .map::before {
+    content: "\1F30E";
+    margin-right: 5px;
+}
